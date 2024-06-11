@@ -1,5 +1,12 @@
-from pathlib import Path
+"""
+Settings configuration for the Django project.
+
+This module contains all the settings and configuration for the Django project,
+including database settings, installed applications, middleware, and more.
+"""
+
 import os
+from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
